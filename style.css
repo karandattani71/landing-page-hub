@@ -1,0 +1,283 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1F2937;
+}
+.headerlogo{
+    color: #F8FAF8;
+    font-weight: 900;
+    height: 100px;
+    text-align: left;
+
+}
+#header{
+    display: flex;
+    color: white;
+    justify-content:space-around;
+    height: 100px;
+    width: 100%;
+    gap: 600px;
+}
+.links{
+    list-style-type: none;
+    width: 400px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.creater-main{
+    color: #f9f8fa;
+    font-weight: bolder;
+    font-size: 50px; 
+}
+.creater{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 125px;
+    margin-right: 125px;
+    justify-content: space-around;
+}
+.say{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #F8FAF8;
+}
+
+.signup{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 8px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3882F2;
+    border: none;
+    border-radius: 10px;
+    width: 350px;
+    height: 40px;
+}
+
+.img{
+    display: inline-block;
+    width: 500px;
+    margin-left: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(10, 218, 255);
+    border-radius: 15px;
+    border: 2px;
+    border:solid;
+    box-shadow:aquamarine;
+
+
+
+}
+.web{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.team{
+    background-color: #F8FAF8;
+    margin-top: 100px;
+    height: 450px;
+    width: auto;
+    padding-top: 1px;
+}
+.some{
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 40px;
+}
+.team-box{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+    justify-content:space-around;
+    transition: transform .3s;        
+}
+.it:hover {
+    transform: scale(1.1);
+}
+.it{
+    border: #3882F2;
+    border-width: 3.5px;
+    border-style: solid;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #888888;
+
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: 110px;
+    justify-content: space-around;
+    gap:150px
+}
+.team-name{
+    height: 150px;
+    width: 150px;
+    font-weight: bold;
+}
+.thought{
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+}
+.thought-main{
+    padding-top: 125px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-right: 250px;
+    flex-shrink: 5;
+}
+.slo{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: right;
+    
+}
+.name{
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content:right;
+}
+.footer{
+    height: 350px;
+    background-color: #F8FAF8;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.footer-main{
+    height: 130px;
+    align-self: center;
+    align-items: center;
+    width: 750px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 7px;
+    background-color: #3882F2;
+    display: flex;
+    justify-content: space-between;
+}
+.te{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.lil{
+    color: #F9FAF8;
+    font-size: 16px;
+}
+.signu{
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3882F2;
+    border: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    width: 120px;
+    height: 35px;
+}
+/* .copy{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+} */
+footer{
+    color: #ffffff;
+    font-size: 16px;  
+    text-align: center;
+}
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+.signup span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.signup span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.signup:hover span {
+    padding-right: 25px;
+  }
+  
+.signup:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+.bg-image {
+    /* Full height */
+    height: 50%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+.img1 { background-image: url("img1.jpg"); }
+.img2 { background-image: url("img1.jpg"); }
+.img3 { background-image: url("img1.jpg"); }
+.img4 { background-image: url("img1.jpg"); }
+.img5 { background-image: url("img1.jpg"); }
+.img6 { background-image: url("img1.jpg"); }
